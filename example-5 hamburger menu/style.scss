@@ -1,0 +1,61 @@
+// general style
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+// opaciy side
+.active{
+    display: block !important;
+}
+// section style
+.header {
+  margin: 2rem auto;
+  .see {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    h2 {
+      font-size: x-large;
+    }
+    .fa-bars {
+        display: none;
+      font-size: x-large;
+      cursor: pointer;
+    }
+    .fa-xmark{
+     display: none;
+     font-size: x-large;
+     cursor: pointer;
+    }
+  }
+  .nav-links{
+display: none;
+  
+    // i{
+    //     font-size: x-large;
+    // }
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%, -50%);
+        li{
+            font-size: x-large;
+        }
+        
+    }
+  }
+}

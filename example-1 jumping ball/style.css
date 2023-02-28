@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ball {
+  border-radius: 50%;
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-animation-name: jumping;
+          animation-name: jumping;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(0.311, 0.441, 0.444, 1.649);
+          animation-timing-function: cubic-bezier(0.311, 0.441, 0.444, 1.649);
+  background-color: red;
+  margin: 0 auto;
+}
+
+@-webkit-keyframes jumping {
+  50% {
+    top: 20%;
+  }
+}
+
+@keyframes jumping {
+  50% {
+    top: 20%;
+  }
+}/*# sourceMappingURL=style.css.map */

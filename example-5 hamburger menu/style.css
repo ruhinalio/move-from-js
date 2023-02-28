@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.active {
+  display: block !important;
+}
+
+.header {
+  margin: 2rem auto;
+}
+.header .see {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.header .see h2 {
+  font-size: x-large;
+}
+.header .see .fa-bars {
+  display: none;
+  font-size: x-large;
+  cursor: pointer;
+}
+.header .see .fa-xmark {
+  display: none;
+  font-size: x-large;
+  cursor: pointer;
+}
+.header .nav-links {
+  display: none;
+}
+.header .nav-links ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%, -50%);
+}
+.header .nav-links ul li {
+  font-size: x-large;
+}/*# sourceMappingURL=style.css.map */
